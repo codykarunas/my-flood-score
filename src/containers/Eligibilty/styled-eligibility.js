@@ -16,6 +16,7 @@ export const HeaderContainer = styled.div`
     font-size: 20px;
     font-weight: 500;
     line-height: 1.5em;
+    margin-top: 15px;
 `;
 
 export const ParallaxWrapper = styled.div`

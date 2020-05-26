@@ -166,9 +166,9 @@ const IFrameLanding = props => {
               Find out for FREE if your property is eligible.
             </SubtitleEmphasis>
           </Subtitle>
-          <div style={{ paddingLeft: "10px", paddingRight: "10px", textAlign: 'center' }}>
+          <div style={{ paddingLeft: "10px", paddingRight: "10px", textAlign: 'center', marginTop: '-40px' }}>
             <Row xs={12} style={{ margin: "0 auto", maxWidth: "800px" }}>
-              <Col xs={10} style={{ padding: "0", margin: "0", margin: '0 auto' }}>
+              <Col xs={12} style={{ padding: "0", margin: "0", margin: '0 auto' }}>
                 <AutoSuggest
                   autocomplete="off"
                   theme={autosuggestTheme}
@@ -182,11 +182,6 @@ const IFrameLanding = props => {
                   showStats
                 />
               </Col>
-              {/* <Col xs={2} style={{ padding: "0", margin: "0", top: '27px' }}>
-                  <IframeSearchBtn onClick={e => handleOnClick(e)}>
-                    Proceed
-                  </IframeSearchBtn>
-                </Col> */}
             </Row>
           </div>
           <HeaderContainer>
@@ -237,7 +232,7 @@ const autosuggestTheme = {
     fontWeight: '500',
     color: "#666666",
     width: '100%',
-    padding: '10px 40px 10px 40px',
+    padding: '10px 15px 10px 15px',
     height: '3rem',
     border: 'none',
   },
@@ -245,7 +240,7 @@ const autosuggestTheme = {
   inputOpen: {
     fontWeight: '500',
     color: "#666666",
-    padding: '10px 40px 10px 40px',
+    padding: '10px 15px 10px 15px',
     border: 'none',
   },
 
@@ -302,8 +297,7 @@ const autosuggestTheme = {
 const countySelectStyles = {
   position: 'relative',
   margin: '0 auto',
-  top: '-40px',
-  marginBottom: '-40px',
   width: '50%',
+  minWidth: '215px',
   color: 'white'
 }

@@ -14,7 +14,7 @@ const NotApplicableHighRisk = ({ selectedAddress, propertyData }) => {
       <div style={{ margin: "0 auto", maxWidth: "1100px", paddingTop: "20px", fontWeight: "500" }}>
         <div style={{ paddingBottom: "20px" }}>
           <h3 style={{ color: "#fff", fontFamily: "Helvetica" }}>
-            Good News! It is not recommended to pursue a Letter of Map Amendmend for this property.
+            It is not recommended to pursue a Letter of Map Amendmend for this property.
         </h3>
         </div>
         {/* <Row lg={12} style={{ padding: "20px 20px 20px 20px" }}> */}

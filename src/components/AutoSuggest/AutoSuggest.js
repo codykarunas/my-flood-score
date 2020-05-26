@@ -239,7 +239,7 @@ class AutoSuggest extends React.Component {
           </Form.Group>
         </Form>
         {loadingCounty &&
-          <Spinner animation="border" role="status" style={{ ...countySelectStyles, width: '2rem' }}>
+          <Spinner animation="border" role="status" style={{ ...countySelectStyles, width: '2rem', minWidth: '2rem' }}>
             <span className="sr-only">Loading...</span>
           </Spinner>
         }
@@ -282,6 +282,8 @@ export const StatisticsDiv = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  width: 100%;
+  position: absolute;
   ${'span'} {
     color: #C7AE4A;
     animation: fadeInAnimation ease 1s 
